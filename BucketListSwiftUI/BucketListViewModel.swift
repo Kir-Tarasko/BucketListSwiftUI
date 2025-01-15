@@ -9,6 +9,6 @@ import Foundation
 
 class BucketListViewModel {
     
-    var listItems: [BucketListItemModel] = [BucketListItemModel(name: "See the ocean"), BucketListItemModel(name: "Go to hockey"), BucketListItemModel(name: "Visit Europe")]
+    var listItems: [BucketListItemModel] = [BucketListItemModel(name: "See the ocean"), BucketListItemModel(name: "Go to NHL hockey"), BucketListItemModel(name: "Visit Europe")]
     
 }
