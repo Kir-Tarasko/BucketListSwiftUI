@@ -14,11 +14,14 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TextField("", text: $listItemName)
+                .padding(.all)
+                .border(Color(UIColor.orange))
         }
         .padding()
     }
 }
+    #Preview {
+        ContentView()
+    }
+    
 
-#Preview {
-    ContentView()
-}
