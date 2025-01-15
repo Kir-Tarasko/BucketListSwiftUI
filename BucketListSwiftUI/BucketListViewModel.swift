@@ -1,5 +1,5 @@
 //
-//  BucketListItemModel.swift
+//  BucketListViewModel.swift
 //  BucketListSwiftUI
 //
 //  Created by Kirill Tarasko on 15.01.2025.
@@ -7,9 +7,8 @@
 
 import Foundation
 
-
-struct BucketListItemModel {
-    var name: String
-    var id = UUID()
-    var isCompleted: Bool = false
+class BucketListViewModel {
+    
+    var listItems: [BucketListItemModel] = [BucketListItemModel(name: "See the ocean"), BucketListItemModel(name: "Go to hockey"), BucketListItemModel(name: "Visit Europe")]
+    
 }
