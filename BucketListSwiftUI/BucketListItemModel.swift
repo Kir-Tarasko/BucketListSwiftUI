@@ -11,5 +11,5 @@ import Foundation
 struct BucketListItemModel {
     var name: String
     var id = UUID()
-    var isCompleted: Bool = false
+    var isCompleted: Bool = true
 }
